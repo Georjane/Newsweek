@@ -21,30 +21,32 @@
   </head>
   <body>
 
-<!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg bg-danger">
+    <!-- Navigation Bar -->
+    <nav class="navbar bg-danger">
         <img class="navbar-brand w-25" src="images/logo.png" alt=" ">
         <div class=""> 
             <i class="fas fa-portrait text-white-50 pr-3"></i>
             <button class="btn bg-warning" type="button">Subscribe</button>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#menuList">
+            <button class="btn-danger" type="button">
               <span class="fas fa-bars text-white-50"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menuList">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#">link</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">link</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">link</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">link</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">link</a></li>
-                </ul>
-            </div>     
+            </button>  
         </div>
     </nav>
+    <nav class=" container-fluid navbar bg-success">
+        <ul class="d-inline-flex">
+            <li class="nav-item"><a class="nav-link" href="#">link</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">link</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">link</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">link</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">link</a></li>
+        </ul>
+    </nav> 
 
-<!-- Article 1-World -->
-    <article class="container-fluid col-md-8 col-lg-6 mr-5 mt-2 border-bottom">
+<div class="row container-fluid">
+
+    
+        <!-- Article 1-World -->
+    <article class="container-fluid col-md-7 order-md-2 col-lg-6 mt-2 border-bottom">
         <h6 class="text-muted">TOP STORY</h6>
         <img class="w-100" src="images/bigimg1.webp" alt=" ">
         <span class="bg-primary p-1 text-white">WORLD</span>
@@ -53,254 +55,258 @@
     </article>
 
     <!-- Section 1-US -->
-        <section class="container-fluid col-md-4 col-lg-3 mt-3 pt-3">
-            <h6 class="text-muted">FEATURED STORIES</h6>
-            <article>
-                <img class="w-100" src="images/bigimg2" alt=" ">
-                <span class="bg-primary p-1 px-3 text-white">U.S.</span>
+    <section class="container-fluid col-md-5  col-lg-3 order-md-1 mt-2">
+        <h6 class="text-muted">FEATURED STORIES</h6>
+        <article>
+            <img class="w-100" src="images/bigimg2" alt=" ">
+            <span class="bg-primary p-1 px-3 text-white">U.S.</span>
+            <h5 class="font-weight-bolder">Esper Flipflops and Leaves Troops in DC as Trump Spars With Mattis</h5>
+            <p class="">"We must reject and hold accountable those in office who would make a mockery of our Constitution," General James Mattis wrote Wednesday.</p>
+        </article>
+        <article>
+            <img class="w-100" src="images/bigimg3.webp" alt=" ">
+            <span class="bg-primary p-1 px-3 text-white">U.S.</span>
+            <h5 class="font-weight-bolder">'Foreign Government' May Be Behind Looting Post on Facebook, Investigation Underway, Police Say
+                </h5>
+            <p class="">The FBI is holding an investigation to see if the flyer came from inside Rhode Island or was created by a "foreign government," said Colonel James Manni of the Rhode Island State Police on Wednesday.</p>
+        </article>
+        <article>
+            <img class="w-100" src="images/bigimg4.webp" alt=" ">
+            <span class="bg-primary p-1 px-3 text-white">U.S.</span>
+            <h5 class="font-weight-bolder">George Floyd Died of Heart Attack Complicated by Neck Compression
+                </h5>
+            <p class="">In layman's terms, the medical examiner said George Floyd died from a sudden failure in his heart's ability to pump blood to his brain due to the stress put on his body by the arresting officer pressing upon his neck.</p>
+        </article>
+        <article>
+            <img class="w-100" src="images/bigimg5.webp" alt=" ">
+            <span class="bg-primary p-1 px-3 text-white">U.S.</span>
+            <h5 class="font-weight-bolder">President Trump Says 'Something Snapped' in Cops Involved in Floyd Death
+                </h5>
+            <p class="">"Nothing good comes out of that," President Donald Trump said Wednesday of George Floyd's death. "That was a very bad thing."</p>
+        </article>
+        <article>
+            <img class="w-100" src="images/bigimg6.webp" alt=" ">
+            <span class="bg-primary p-1 px-3 text-white">U.S.</span>
+            <h5 class="font-weight-bolder">73 Percent of Repubs, 42 Percent of Dems Feel Okay Voting During Epidemic
+             </h5>
+            <p class="">The results underscore significant differences in how political affiliations affect people's individual attitudes towards COVID-19.</p>
+        </article>
+    </section>
+
+    <div class="col-lg-3 order-md-4 container-fluid">
+ 
+  <!-- Section 2-The Debate -->
+  <section class="container-fluid mt-2 border-bottom order-md-12 pb-3 mb-">
+    <h6 class="text-muted border-danger border-bottom pb-2">THE DEBATE</h6>
+        
+    <div class="media border-bottom">
+        <img src="images/mediaimg1.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
+        <div class="media-body mt-2">
+            <h6 class="font-weight-bolder">Respond to Coronavirus With More Nationalism</h6>
+            <p>BY <strong>NIGEL FARAGE</strong></p>
+         </div>
+    </div>
+    <span class="bg-dark py-1 px-2 text-white border rounded-circle mx-auto">vs</span>
+    <div class="media border-primary border-bottom pt-3 mt-1">
+        <div class="media-body mt-2">
+           <h6 class="font-weight-bolder">Respond to Coronavirus With More Globalism</h6>
+            <p>BY <strong>MARIANNE WILLIAMSON</strong></p>
+        </div>
+        <img src="images/mediaimg2.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
+    </div>
+  </section>
+
+  <!-- Section 2-Opinion -->
+  <section class="mt-2 order-md-12">
+    <h6 class="text-muted pb-2">OPINION</h6>
+    <div class="media border-bottom">
+        <img src="images/mediaimg3.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
+        <div class="media-body mt-2">
+            <h6 class="font-weight-bolder">Domestic Military Use Is Lawful but Not Yet Prudent</h6>
+            <p class="text-black-50">BY <strong>JOHN YOO AND ROBERT DELAHUNTY</strong></p>
+         </div>
+    </div>
+    <div class="media border-bottom pt-2">
+        <img src="images/mediaimg4.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
+        <div class="media-body mt-2">
+            <h6 class="font-weight-bolder">Trump's Reasons for Targeting Social Media Are Wrong. But It's Right to Do</h6>
+            <p class="text-black-50">BY <strong> ANN OLIVARIUS</strong></p>
+         </div>
+    </div>
+    <div class="media border-bottom pt-2">
+        <img src="images/mediaimg5.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
+        <div class="media-body mt-2">
+            <h6 class="font-weight-bolder">Trump Is Right to Take on Big Tech</h6>
+            <p class="text-black-50">BY <strong>MARISSA STREIT</strong></p>
+         </div>
+    </div>
+    <div class="media border-bottom pt-2">
+        <img src="images/mediaimg6.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
+        <div class="media-body mt-2">
+            <h6 class="font-weight-bolder">Domestic Military Use Is Lawful but Not Yet Prudent</h6>
+            <p class="text-black-50">BY <strong>ROBERT DELAHUNTY</strong></p>
+         </div>
+    </div>
+    <div class="media border-bottom pt-2">
+        <img src="images/mediaimg4.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
+        <div class="media-body mt-2">
+            <h6 class="font-weight-bolder">Trump's Reasons for Targeting Social Media Are Wrong. But It's Right to Do</h6>
+            <p class="text-black-50">BY <strong> ANN OLIVARIUS</strong></p>
+         </div>
+    </div>
+    <div class="media border-bottom pt-2">
+        <img src="images/mediaimg5.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
+        <div class="media-body mt-2">
+            <h6 class="font-weight-bolder">Trump Is Right to Take on Big Tech</h6>
+            <p class="text-black-50">BY <strong>MARISSA STREIT</strong></p>
+         </div>
+    </div>
+  </section>
+
+</div>
+</div> 
+ 
+    <!-- Section 3-Sponsored Insights --> 
+    <section class="container-fluid col-md-5 col-lg-3 order-lg-5 mt-3 pt-3 float-md-left">
+        <h6 class="d-none">#</h6>
+        <article class="mb-4">
+            <img class="w-100" src="images/Sec2img1.jpg" alt=" ">
+            <span class="bg-primary p-1 px-3 text-white">SPONSORED INSIGHT</span>
+            <div class="border p-3">
                 <h5 class="font-weight-bolder">Esper Flipflops and Leaves Troops in DC as Trump Spars With Mattis</h5>
                 <p class="">"We must reject and hold accountable those in office who would make a mockery of our Constitution," General James Mattis wrote Wednesday.</p>
-            </article>
-            <article>
-                <img class="w-100" src="images/bigimg3.webp" alt=" ">
-                <span class="bg-primary p-1 px-3 text-white">U.S.</span>
-                <h5 class="font-weight-bolder">'Foreign Government' May Be Behind Looting Post on Facebook, Investigation Underway, Police Say
-                    </h5>
-                <p class="">The FBI is holding an investigation to see if the flyer came from inside Rhode Island or was created by a "foreign government," said Colonel James Manni of the Rhode Island State Police on Wednesday.</p>
-            </article>
-            <article>
-                <img class="w-100" src="images/bigimg4.webp" alt=" ">
-                <span class="bg-primary p-1 px-3 text-white">U.S.</span>
-                <h5 class="font-weight-bolder">George Floyd Died of Heart Attack Complicated by Neck Compression
-                    </h5>
-                <p class="">In layman's terms, the medical examiner said George Floyd died from a sudden failure in his heart's ability to pump blood to his brain due to the stress put on his body by the arresting officer pressing upon his neck.</p>
-            </article>
-            <article>
-                <img class="w-100" src="images/bigimg5.webp" alt=" ">
-                <span class="bg-primary p-1 px-3 text-white">U.S.</span>
-                <h5 class="font-weight-bolder">President Trump Says 'Something Snapped' in Cops Involved in Floyd Death
-                    </h5>
-                <p class="">"Nothing good comes out of that," President Donald Trump said Wednesday of George Floyd's death. "That was a very bad thing."</p>
-            </article>
-            <article>
-                <img class="w-100" src="images/bigimg6.webp" alt=" ">
-                <span class="bg-primary p-1 px-3 text-white">U.S.</span>
-                <h5 class="font-weight-bolder">73 Percent of Repubs, 42 Percent of Dems Feel Okay Voting During Epidemic
-                 </h5>
-                <p class="">The results underscore significant differences in how political affiliations affect people's individual attitudes towards COVID-19.</p>
-            </article>
-      </section>
-    
-      <!-- Section 2-The Debate -->
-      <section class="container-fluid col-lg-3  border-bottom pb-3 mb-4">
-        <h6 class="text-muted border-danger border-bottom pb-2">THE DEBATE</h6>
-            
-        <div class="media border-bottom">
-            <img src="images/mediaimg1.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
-            <div class="media-body mt-2">
-                <h6 class="font-weight-bolder">Respond to Coronavirus With More Nationalism</h6>
-                <p>BY <strong>NIGEL FARAGE</strong></p>
-             </div>
-        </div>
-        <span class="bg-dark py-1 px-2 text-white border rounded-circle mx-auto">vs</span>
-        <div class="media border-primary border-bottom pt-3 mt-1">
-            <div class="media-body mt-2">
-               <h6 class="font-weight-bolder">Respond to Coronavirus With More Globalism</h6>
-                <p>BY <strong>MARIANNE WILLIAMSON</strong></p>
             </div>
-            <img src="images/mediaimg2.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
-        </div>
-      </section>
-    
-      <!-- Section 2-Opinion -->
-      <section class="container-fluid col-lg-3">
-        <h6 class="text-muted pb-2">OPINION</h6>
-        <div class="media border-bottom">
-            <img src="images/mediaimg3.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
-            <div class="media-body mt-2">
-                <h6 class="font-weight-bolder">Domestic Military Use Is Lawful but Not Yet Prudent</h6>
-                <p class="text-black-50">BY <strong>JOHN YOO AND ROBERT DELAHUNTY</strong></p>
-             </div>
-        </div>
-        <div class="media border-bottom pt-2">
-            <img src="images/mediaimg4.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
-            <div class="media-body mt-2">
-                <h6 class="font-weight-bolder">Trump's Reasons for Targeting Social Media Are Wrong. But It's Right to Do</h6>
-                <p class="text-black-50">BY <strong> ANN OLIVARIUS</strong></p>
-             </div>
-        </div>
-        <div class="media border-bottom pt-2">
-            <img src="images/mediaimg5.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
-            <div class="media-body mt-2">
-                <h6 class="font-weight-bolder">Trump Is Right to Take on Big Tech</h6>
-                <p class="text-black-50">BY <strong>MARISSA STREIT</strong></p>
-             </div>
-        </div>
-        <div class="media border-bottom pt-2">
-            <img src="images/mediaimg6.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
-            <div class="media-body mt-2">
-                <h6 class="font-weight-bolder">Domestic Military Use Is Lawful but Not Yet Prudent</h6>
-                <p class="text-black-50">BY <strong>ROBERT DELAHUNTY</strong></p>
-             </div>
-        </div>
-        <div class="media border-bottom pt-2">
-            <img src="images/mediaimg4.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
-            <div class="media-body mt-2">
-                <h6 class="font-weight-bolder">Trump's Reasons for Targeting Social Media Are Wrong. But It's Right to Do</h6>
-                <p class="text-black-50">BY <strong> ANN OLIVARIUS</strong></p>
-             </div>
-        </div>
-        <div class="media border-bottom pt-2">
-            <img src="images/mediaimg5.webp" alt="John Doe" class="mr-3 rounded-circle" style="width: 60px;">
-            <div class="media-body mt-2">
-                <h6 class="font-weight-bolder">Trump Is Right to Take on Big Tech</h6>
-                <p class="text-black-50">BY <strong>MARISSA STREIT</strong></p>
-             </div>
-        </div>
-      </section>
-     
-        <!-- Section 3-Sponsored Insights --> 
-        <section class="container-fluid col-md-4 col-lg-3 mt-3 pt-3">
-            <h6 class="d-none">#</h6>
-            <article class="mb-4">
-                <img class="w-100" src="images/Sec2img1.jpg" alt=" ">
-                <span class="bg-primary p-1 px-3 text-white">SPONSORED INSIGHT</span>
-                <div class="border p-3">
-                    <h5 class="font-weight-bolder">Esper Flipflops and Leaves Troops in DC as Trump Spars With Mattis</h5>
-                    <p class="">"We must reject and hold accountable those in office who would make a mockery of our Constitution," General James Mattis wrote Wednesday.</p>
-                </div>
-            </article>
-            <article class="mb-4">
-                <img class="w-100" src="images/Sec2img2.jpg" alt=" ">
-                <span class="bg-primary p-1 px-3 text-white">SPONSORED INSIGHT</span>
-                <div class="border p-3">
-                <h5 class="font-weight-bolder">'Foreign Government' May Be Behind Looting Post on Facebook, Investigation Underway, Police Say
-                    </h5>
-                <p class="">The FBI is holding an investigation to see if the flyer came from inside Rhode Island or was created by a "foreign government," said Colonel James Manni of the Rhode Island State Police on Wednesday.</p></div>
-            </article>
-            <article class="mb-4">
-                <img class="w-100" src="images/Sec2img3.jpg" alt=" ">
-                <span class="bg-primary p-1 px-3 text-white">SPONSORED INSIGHT</span>
-                <div class="border p-3">
-                <h5 class="font-weight-bolder">George Floyd Died of Heart Attack Complicated by Neck Compression
-                    </h5>
-                <p class="">In layman's terms, the medical examiner said George Floyd died from a sudden failure in his heart's ability to pump blood to his brain due to the stress put on his body by the arresting officer pressing upon his neck.</p></div>
-            </article>
-            <article class="mb-4">
-                <img class="w-100" src="images/Sec2img4.jpg" alt=" ">
-                <div class="border p-3">
-                <h5 class="font-weight-bolder">President Trump Says 'Something Snapped' in Cops Involved in Floyd Death
-                    </h5>
-                <p class="">"Nothing good comes out of that," President Donald Trump said Wednesday of George Floyd's death. "That was a very bad thing."</p></div>
-            </article>
-            <article class="mb-4">
-                <img class="w-100" src="images/Sec2img5.jpg" alt=" ">
-                <div class="border p-3">
-                <h5 class="font-weight-bolder">73 Percent of Repubs, 42 Percent of Dems Feel Okay Voting During Epidemic
-                 </h5>
-                <p class="">The results underscore significant differences in how political affiliations affect people's individual attitudes towards COVID-19.</p></div>
-            </article>
-      </section>
-    
-      <!-- Section 4-More Stories -->
-      <section class="container-fluid col-md-8 col-lg-6 mr-5 mt-2 border-bottom">
-        <h6 class="text-muted pb-2 border-bottom">MORE STORIES</h6>
-        <div class="media border-bottom pb-3">
-            <img src="images/smallimg1.jpg" alt="John Doe" class="mr-3 mt-2">
-            <div class="media-body mt-2">
-                <h6 class="font-weight-bolder">Donald Trump 'Remains Healthy' Despite Elevated Blood Pressure, Obesity</h6>
-                <small>President Donald Trump's annual physical found he has elevated blood pressure and meets the classification for obese, but his doctor concluded he's healthy.</small>
-             </div>
-        </div> 
-        <div class="media border-bottom pb-3">
-            <img src="images/smallimg2.jpg" alt="John Doe" class="mr-3 mt-3">
-            <div class="media-body mt-3">
-                <h6 class="font-weight-bolder">Curfews in Place in the U.S. And the Fines You Could Pay for Violating Them</h6>
-                <small>Curfews have been issued in numerous cities across the U.S. including New York City, Atlantic City, Seattle, Birmingham, Denver and Miami.</small>
-             </div>
-        </div>
-        <div class="media border-bottom pb-3">
-            <img src="images/smallimg3.jpg" alt="John Doe" class="mr-3 mt-3">
-            <div class="media-body mt-3">
-                <h6 class="font-weight-bolder">Biden Takes 11-Point Lead Over Trump in New National Poll</h6>
-                <small>According to the poll, 52 percent said they lean toward Biden if the election was held today, while 41 percent sided with Trump, giving the former vice president an 11-point lead.</small>
-             </div>
-        </div>
-        <div class="media border-bottom pb-3">
-            <img src="images/smallimg4.jpg" alt="John Doe" class="mr-3 mt-3">
-            <div class="media-body mt-3">
-                <h6 class="font-weight-bolder">Trump Holds 1 Point Lead Over Biden in Traditionally Red Texas, Poll Shows</h6>
-                <small>Texas voters also indicated that they prefer Trump on the economy and Biden on health care.</small>
-             </div>
-        </div>
-        <div class="media border-bottom pb-3">
-            <img src="images/smallimg5.jpg" alt="John Doe" class="mr-3 mt-3">
-            <div class="media-body mt-3">
-                <h6 class="font-weight-bolder">Italy Becomes First European Nation to Fully Open Borders</h6>
-                <small>Italy opened its borders to international travelers on Wednesday, despite warnings from other European nations that the move was premature in light of the global health crisis.</small>
-             </div>
-        </div>
-        <div class="media border-bottom pb-3">
-            <img src="images/smallimg6.jpg" alt="John Doe" class="mr-3 mt-3">
-            <div class="media-body mt-3">
-                <h6 class="font-weight-bolder">Curfews in Place in the U.S. And the Fines You Could Pay for Violating Them</h6>
-                <small>Curfews have been issued in numerous cities across the U.S. including New York City, Atlantic City, Seattle, Birmingham, Denver and Miami.</small>
-             </div>
-        </div>
-        <div class="media border-bottom pb-3">
-            <img src="images/smallimg7.jpg" alt="John Doe" class="mr-3 mt-3">
-            <div class="media-body mt-3">
-                <h6 class="font-weight-bolder">Biden Takes 11-Point Lead Over Trump in New National Poll</h6>
-                <small>According to the poll, 52 percent said they lean toward Biden if the election was held today, while 41 percent sided with Trump, giving the former vice president an 11-point lead.</small>
-             </div>
-        </div>
-        <div class="media border-bottom pb-3">
-            <img src="images/smallimg8.jpg" alt="John Doe" class="mr-3 mt-3">
-            <div class="media-body mt-3">
-                <h6 class="font-weight-bolder">Trump Holds 1 Point Lead Over Biden in Traditionally Red Texas, Poll Shows</h6>
-                <small>Texas voters also indicated that they prefer Trump on the economy and Biden on health care.</small>
-             </div>
-        </div>
-        <div class="media border-bottom pb-3">
-            <img src="images/smallimg9.jpg" alt="John Doe" class="mr-3 mt-3">
-            <div class="media-body mt-3">
-                <h6 class="font-weight-bolder">Italy Becomes First European Nation to Fully Open Borders</h6>
-                <small>Italy opened its borders to international travelers on Wednesday, despite warnings from other European nations that the move was premature in light of the global health crisis.</small>
-             </div>
-        </div>
-        <div class="media border-bottom pb-3">
-            <img src="images/smallimg5.jpg" alt="John Doe" class="mr-3 mt-3">
-            <div class="media-body mt-3">
-                <h6 class="font-weight-bolder">Italy Becomes First European Nation to Fully Open Borders</h6>
-                <small>Italy opened its borders to international travelers on Wednesday, despite warnings from other European nations that the move was premature in light of the global health crisis.</small>
-             </div>
-        </div>
-      </section>
+        </article>
+        <article class="mb-4">
+            <img class="w-100" src="images/Sec2img2.jpg" alt=" ">
+            <span class="bg-primary p-1 px-3 text-white">SPONSORED INSIGHT</span>
+            <div class="border p-3">
+            <h5 class="font-weight-bolder">'Foreign Government' May Be Behind Looting Post on Facebook, Investigation Underway, Police Say
+                </h5>
+            <p class="">The FBI is holding an investigation to see if the flyer came from inside Rhode Island or was created by a "foreign government," said Colonel James Manni of the Rhode Island State Police on Wednesday.</p></div>
+        </article>
+        <article class="mb-4">
+            <img class="w-100" src="images/Sec2img3.jpg" alt=" ">
+            <span class="bg-primary p-1 px-3 text-white">SPONSORED INSIGHT</span>
+            <div class="border p-3">
+            <h5 class="font-weight-bolder">George Floyd Died of Heart Attack Complicated by Neck Compression
+                </h5>
+            <p class="">In layman's terms, the medical examiner said George Floyd died from a sudden failure in his heart's ability to pump blood to his brain due to the stress put on his body by the arresting officer pressing upon his neck.</p></div>
+        </article>
+        <article class="mb-4">
+            <img class="w-100" src="images/Sec2img4.jpg" alt=" ">
+            <div class="border p-3">
+            <h5 class="font-weight-bolder">President Trump Says 'Something Snapped' in Cops Involved in Floyd Death
+                </h5>
+            <p class="">"Nothing good comes out of that," President Donald Trump said Wednesday of George Floyd's death. "That was a very bad thing."</p></div>
+        </article>
+        <article class="mb-4">
+            <img class="w-100" src="images/Sec2img5.jpg" alt=" ">
+            <div class="border p-3">
+            <h5 class="font-weight-bolder">73 Percent of Repubs, 42 Percent of Dems Feel Okay Voting During Epidemic
+             </h5>
+            <p class="">The results underscore significant differences in how political affiliations affect people's individual attitudes towards COVID-19.</p></div>
+        </article>
+  </section>
+  <!-- Section 4-More Stories -->
+  <section class="container-fluid  col-md-7 order-md-3 order-lg-6 col-lg-6  mr-5 mt-2 border-bottom">
+    <h6 class="text-muted pb-2 border-bottom">MORE STORIES</h6>
+    <div class="media border-bottom pb-3">
+        <img src="images/smallimg1.jpg" alt="John Doe" class="mr-3 mt-2">
+        <div class="media-body mt-2">
+            <h6 class="font-weight-bolder">Donald Trump 'Remains Healthy' Despite Elevated Blood Pressure, Obesity</h6>
+            <small>President Donald Trump's annual physical found he has elevated blood pressure and meets the classification for obese, but his doctor concluded he's healthy.</small>
+         </div>
+    </div> 
+    <div class="media border-bottom pb-3">
+        <img src="images/smallimg2.jpg" alt="John Doe" class="mr-3 mt-3">
+        <div class="media-body mt-3">
+            <h6 class="font-weight-bolder">Curfews in Place in the U.S. And the Fines You Could Pay for Violating Them</h6>
+            <small>Curfews have been issued in numerous cities across the U.S. including New York City, Atlantic City, Seattle, Birmingham, Denver and Miami.</small>
+         </div>
+    </div>
+    <div class="media border-bottom pb-3">
+        <img src="images/smallimg3.jpg" alt="John Doe" class="mr-3 mt-3">
+        <div class="media-body mt-3">
+            <h6 class="font-weight-bolder">Biden Takes 11-Point Lead Over Trump in New National Poll</h6>
+            <small>According to the poll, 52 percent said they lean toward Biden if the election was held today, while 41 percent sided with Trump, giving the former vice president an 11-point lead.</small>
+         </div>
+    </div>
+    <div class="media border-bottom pb-3">
+        <img src="images/smallimg4.jpg" alt="John Doe" class="mr-3 mt-3">
+        <div class="media-body mt-3">
+            <h6 class="font-weight-bolder">Trump Holds 1 Point Lead Over Biden in Traditionally Red Texas, Poll Shows</h6>
+            <small>Texas voters also indicated that they prefer Trump on the economy and Biden on health care.</small>
+         </div>
+    </div>
+    <div class="media border-bottom pb-3">
+        <img src="images/smallimg5.jpg" alt="John Doe" class="mr-3 mt-3">
+        <div class="media-body mt-3">
+            <h6 class="font-weight-bolder">Italy Becomes First European Nation to Fully Open Borders</h6>
+            <small>Italy opened its borders to international travelers on Wednesday, despite warnings from other European nations that the move was premature in light of the global health crisis.</small>
+         </div>
+    </div>
+    <div class="media border-bottom pb-3">
+        <img src="images/smallimg6.jpg" alt="John Doe" class="mr-3 mt-3">
+        <div class="media-body mt-3">
+            <h6 class="font-weight-bolder">Curfews in Place in the U.S. And the Fines You Could Pay for Violating Them</h6>
+            <small>Curfews have been issued in numerous cities across the U.S. including New York City, Atlantic City, Seattle, Birmingham, Denver and Miami.</small>
+         </div>
+    </div>
+    <div class="media border-bottom pb-3">
+        <img src="images/smallimg7.jpg" alt="John Doe" class="mr-3 mt-3">
+        <div class="media-body mt-3">
+            <h6 class="font-weight-bolder">Biden Takes 11-Point Lead Over Trump in New National Poll</h6>
+            <small>According to the poll, 52 percent said they lean toward Biden if the election was held today, while 41 percent sided with Trump, giving the former vice president an 11-point lead.</small>
+         </div>
+    </div>
+    <div class="media border-bottom pb-3">
+        <img src="images/smallimg8.jpg" alt="John Doe" class="mr-3 mt-3">
+        <div class="media-body mt-3">
+            <h6 class="font-weight-bolder">Trump Holds 1 Point Lead Over Biden in Traditionally Red Texas, Poll Shows</h6>
+            <small>Texas voters also indicated that they prefer Trump on the economy and Biden on health care.</small>
+         </div>
+    </div>
+    <div class="media border-bottom pb-3">
+        <img src="images/smallimg9.jpg" alt="John Doe" class="mr-3 mt-3">
+        <div class="media-body mt-3">
+            <h6 class="font-weight-bolder">Italy Becomes First European Nation to Fully Open Borders</h6>
+            <small>Italy opened its borders to international travelers on Wednesday, despite warnings from other European nations that the move was premature in light of the global health crisis.</small>
+         </div>
+    </div>
+    <div class="media border-bottom pb-3">
+        <img src="images/smallimg5.jpg" alt="John Doe" class="mr-3 mt-3">
+        <div class="media-body mt-3">
+            <h6 class="font-weight-bolder">Italy Becomes First European Nation to Fully Open Borders</h6>
+            <small>Italy opened its borders to international travelers on Wednesday, despite warnings from other European nations that the move was premature in light of the global health crisis.</small>
+         </div>
+    </div>
+  </section>
 
-<!-- Section 4-Heroes -->
-<section class="container-fluid col-md-8 col-lg-6 mr-5 mt-2 border-bottom">
+  <!-- Section 4-Heroes -->
+  <section class="container-fluid w-100 col-md-7 order-md-2 mr-5 col-lg-6 mt-2 border-bottom">
     <h6 class="text-muted">HEROES OF THE PANDEMIC</h6>
       <div class="row">
           <article class="col-md">
               <img class="w-100" src="images/sec4img1.webp" alt=" ">
-              <span class="bg-primary p-1 text-white">PANDEMIC HEROES</span>
+              <span class="bg-primary text-white">PANDEMIC HEROES</span>
               <p class="text-black-50 font-weight-bold">The Doctors and Nurses Crossing the Border Daily to Help Asylum Seekers</p>
           </article>
           <article class="col-md">
             <img class="w-100" src="images/sec4img2.webp" alt=" ">
-            <span class="bg-primary p-1 text-white">PANDEMIC HEROES</span>
+            <span class="bg-primary text-white">PANDEMIC HEROES</span>
               <p class="text-black-50 font-weight-bold">The Charity Helping Vulnerable Holocaust Survivors During the Pandemic</p>
         </article>
         <article class="col-md">
             <img class="w-100" src="images/sec4img3.webp" alt=" ">
-            <span class="bg-primary p-1 text-white">PANDEMIC HEROES</span>
+            <span class="bg-primary text-white">PANDEMIC HEROES</span>
               <p class="text-black-50 font-weight-bold">Women Launch Campaign Urging People to Donate Their Stimulus Checks</p>
         </article>
       </div>
   </section>
 
   <!-- Section 4-Culture -->
-  <section class="container-fluid col-md-8 col-lg-6 mr-5 mt-2 border-bottom">
+  <section class="container-fluid col-md-7 order-md-1 col-lg-6 mr-5 mt-2 border-bottom">
     <h6 class="text-muted">CULTURE & TRAVEL</h6>
       <div class="row">
           <article class="col-md">
@@ -321,8 +327,9 @@
       </div>
   </section>
 
+  <div class="container-fluid col-md-4 col-lg-3 float-right">
   <!-- ARTICLE-insights -->
-  <article class="mb-4 container-fluid col-md-4">
+  <article class="mb-4 container-fluid">
     <img class="w-100" src="images/Sec2img5.jpg" alt=" ">
     <span class="bg-primary p-1 px-3 text-white">SPONSORED INSIGHT</span>
     <div class="border p-3">
@@ -341,9 +348,9 @@
   </form>
 
   <!-- ARTICLE-insights -->
-<section>
+<section class="container-fluid">
     <h2 class="d-none">#</h2>
-    <article class="mb-4 container-fluid col-md-4">
+    <article class="mb-4 container-fluid">
         <img class="w-100" src="images/Sec2img1.jpg" alt=" ">
         <span class="bg-primary p-1 px-3 text-white">SPONSORED INSIGHT</span>
         <div class="border p-3">
@@ -351,7 +358,7 @@
             <p class="">"We must reject and hold accountable those in office who would make a mockery of our Constitution," General James Mattis wrote Wednesday.</p>
         </div>
     </article>
-    <article class="mb-4 container-fluid col-md-4">
+    <article class="mb-4 container-fluid">
         <img class="w-100" src="images/Sec2img3.jpg" alt=" ">
         <span class="bg-primary p-1 px-3 text-white">SPONSORED INSIGHT</span>
         <div class="border p-3">
@@ -363,7 +370,7 @@
 </section>
 
   <!-- ARTICLE-Rankings -->
-<article class="mb-4 container-fluid col-md-4">
+<article class="mb-4 container-fluid">
     <img class="w-100" src="images/Sec2img4.jpg" alt=" ">
     <span class="bg-primary p-1 px-3 text-white">RANKINGS</span>
     <div class="border p-3">
@@ -371,18 +378,20 @@
         <p class="">"We must reject and hold accountable those in office who would make a mockery of our Constitution," General James Mattis wrote Wednesday.</p>
     </div>
 </article>
-<article class="mb-4 container-fluid col-md-4">
+<article class="mb-4 container-fluid">
     <img class="w-100" src="images/Sec2img2.jpg" alt=" ">
     <div class="border p-3">
         <h5 class="font-weight-bolder">Esper Flipflops and Leaves Troops in DC as Trump Spars With Mattis</h5>
         <p class="">"We must reject and hold accountable those in office who would make a mockery of our Constitution," General James Mattis wrote Wednesday.</p>
     </div>
 </article>
-
-
+</div>
+</div>
+<div class="clearfix"></div>
 <!-- Section 5 -->
+
 <section class="container-fluid">
-    <h5 class=" border-bottom  pb-2"><img src="images/favicon.ico" alt=" " style="width: 25px;"> THE MAGAZINE</h5>
+    <h5 class="border-bottom pb-2"><img src="images/favicon.ico" alt=" " style="width: 25px;">IN THE MAGAZINE</h5>
     <div class="row">
         <article class="col-md-3">
             <img src="images/sec5img1.webp" alt=" " class="w-100">
@@ -673,5 +682,39 @@
     </section>
 
 </div>
-</body>
+
+<!-- Section 8 -->
+<section class="row container-fluid">
+    <div class="col-lg">
+    <h5>SUBSCRIBE</h5>
+    <article class=" media border-bottom mb-2">
+        <img src="images/lastimg1.jpg" alt=" " class="mr-3 mb-2" style="width: 180px;">
+        <div class="media-body">
+            <h6>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h6>
+            <p>All Access + Weekly Delivery.
+                Choose A Membership That's Perfect for You!</p>
+            <button class="bg-danger">SUBSCRIBE ></button>
+        </div>        
+    </article>
+</div>
+<div class="col-lg">
+    <h5>NEWSLETTER</h5>
+    <article class=" media border-bottom mb-2">
+        <img src="images/lastimg1.jpg" alt=" " class="mr-3 mb-2" style="width: 180px;">
+        <div class="media-body">
+            <h6>The Starting 5</h6>
+            <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+            <input type="email" placeholder="Email address" class="container-fluid ">
+            <button class="bg-danger container-fluid mt-3">FREE SIGN-UP ></button>
+        </div>        
+    </article>
+</div>
+</section>
+
+<!-- Footer -->
+<footer>
+
+</footer>
+  </body>
+
 </html>
