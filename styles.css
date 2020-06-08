@@ -66,6 +66,7 @@ article > .media-body:hover,
   background-color: #c2d4d7;
   color: rgb(59, 57, 57);
   bottom: 18px;
+  max-width: fit-content;
 }
 
 form {
@@ -95,6 +96,10 @@ form > .red {
   color: red;
 }
 
+.alone {
+  bottom: 25px;
+}
+
 footer {
   line-height: 1.7em;
   font-size: 1.1em;
@@ -108,9 +113,22 @@ footer {
   color: rgb(68, 63, 63);
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .lowerfooter a {
     border-right: 1px solid rgb(194, 191, 191);
+  }
+
+  .small {
+    font-size: smaller;
+  }
+
+  .long1 {
+    height: 20vw;
+    width: auto;
+  }
+
+  .negativeposition {
+    margin-top: -780px;
   }
 }
 
@@ -136,17 +154,21 @@ footer {
     color: red;
   }
 
-  .scroll {
-    height: 1000px;
-    overflow: scroll;
+  .negativeposition {
+    margin-top: -740px;
   }
 
-  .negativeposition {
-    margin-top: -550px;
+  .negativeposition2 {
+    margin-top: -300px;
   }
 
   .long {
     height: 18vw;
+    width: auto;
+  }
+
+  .long1 {
+    height: 22vw;
     width: auto;
   }
 

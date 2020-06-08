@@ -3,7 +3,7 @@
 
 ![screenshot](./images/screenshot.png)
 
-In this project, I got a chance to try out Twitter’s Bootstrap framework by building a site that actually uses it. the original Webpage of [Newsweek.com](http://newsweek.com/) was built with the aim of portraying an understanding of the use Bootstrap Frameworks by using Bootstrap CSS classes where ever possible to design the required page.
+In this project, I got a chance to try out Twitter’s Bootstrap framework by building a site that actually uses it. the original Webpage of [Newsweek.com](http://newsweek.com/) was built with the aim of portraying an understanding of the use of Bootstrap Frameworks by using Bootstrap CSS classes where ever possible to design the required page.
 
 It has as main parts a navigation bar, several sections containing article elements, media objects, signup forms and a footer element.
 
