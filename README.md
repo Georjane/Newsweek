@@ -1,7 +1,7 @@
 ## PROJECT: USING BOOTSTRAP
 > This is a replica of the news site Newsweek.com using the Bootstrap framework.
 
-![screenshot](./images/screenshot.png)
+![screenshot](./images/screenshot.jpg)
 
 In this project, I got a chance to try out Twitter’s Bootstrap framework by building a site that actually uses it. the original Webpage of [Newsweek.com](http://newsweek.com/) was built with the aim of portraying an understanding of the use of Bootstrap Frameworks by using Bootstrap CSS classes where ever possible to design the required page.
 
