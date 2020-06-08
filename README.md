@@ -1,7 +1,7 @@
 ## PROJECT: USING BOOTSTRAP
 > This is a replica of the news site Newsweek.com using the Bootstrap framework.
 
-![screenshot](./images/screenshot.jpg)
+![screenshot](./images/screenshot.png)
 
 In this project, I got a chance to try out Twitter’s Bootstrap framework by building a site that actually uses it. the original Webpage of [Newsweek.com](http://newsweek.com/) was built with the aim of portraying an understanding of the use of Bootstrap Frameworks by using Bootstrap CSS classes where ever possible to design the required page.
 
@@ -21,7 +21,7 @@ This project covers the following HTML and CSS3 concepts
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/Georjane/Newsweek/5047e3a88c6b5c9defc4140e64e845b0e7383496/index.html)
 
 
 ## Getting Started
@@ -49,7 +49,7 @@ $ git clone
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Georjane/Newsweek/issues).
 
 ## Show your support
 
@@ -57,7 +57,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- This project was originally taken from [The Odin project]()
+- This project was originally taken from [The Odin project](https://www.theodinproject.com/courses/html-and-css/lessons/using-bootstrap)
 - The project was inspired by the [Microverse](https://www.microverse.org/) program.
 
 ## 📝 License
