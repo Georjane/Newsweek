@@ -1,0 +1,229 @@
+.navbar,
+.red {
+  background-color: red;
+}
+
+.fas {
+  font-size: larger;
+}
+
+.navbar > div > button {
+  width: 110px;
+  height: auto;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a {
+  padding: 0 5px;
+  text-align: justify;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-size: small;
+}
+
+body {
+  max-width: 1300px;
+  margin: auto;
+  background-color: rgb(233, 233, 236);
+}
+
+.mainbody {
+  background-color: white;
+}
+
+.redborder {
+  border-bottom: 5px solid red;
+}
+
+.blueborder {
+  border-bottom: 5px solid rgb(8, 133, 250);
+}
+
+.doubleborder {
+  border-top: 0.5px double rgb(146, 145, 145);
+}
+
+article span {
+  color: rgba(255, 0, 0, 0.85);
+  position: relative;
+  bottom: 25px;
+}
+
+h5:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 0, 0, 0.85);
+}
+
+.media-body h6:hover,
+article > .media-body:hover,
+.redtext {
+  color: rgba(255, 0, 0, 0.85);
+}
+
+.width60 {
+  width: 60px;
+}
+
+.width25 {
+  width: 25px;
+}
+
+.width100 {
+  width: 100px;
+}
+
+.width180 {
+  width: 180px;
+}
+
+.heroes {
+  display: block;
+  background-color: #c2d4d7;
+  color: rgb(59, 57, 57);
+  bottom: 18px;
+  max-width: fit-content;
+}
+
+form {
+  background-color: rgb(248, 245, 245);
+  width: 300px;
+}
+
+form > .red {
+  height: 40px;
+}
+
+.grayhover:hover {
+  background-color: rgb(185, 180, 180);
+}
+
+.redspans,
+.whitespans {
+  background-color: red;
+  bottom: 0;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+
+.whitespans {
+  background-color: white;
+  color: red;
+}
+
+.alone {
+  bottom: 25px;
+}
+
+.divdoubleimg {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.doubleimg {
+  position: absolute;
+  bottom: 10vw;
+  right: 18vw;
+  z-index: 1;
+}
+
+.doubleimgpara {
+  z-index: 2;
+  margin-top: -5vw;
+}
+
+footer {
+  line-height: 1.7em;
+  font-size: 1.1em;
+}
+
+.upperfooter a:hover {
+  color: rgb(11, 44, 236);
+}
+
+.lowerfooter a:hover {
+  color: rgb(68, 63, 63);
+}
+
+@media (min-width: 768px) {
+  .lowerfooter a {
+    border-right: 1px solid rgb(194, 191, 191);
+  }
+
+  .small {
+    font-size: smaller;
+  }
+
+  .long1 {
+    height: 20vw;
+    width: auto;
+  }
+
+  .negativeposition {
+    margin-top: -780px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    transform: scale(1.35);
+  }
+
+  .navbar input {
+    max-width: 80px;
+    border: none;
+    padding: 5px;
+    height: 25px;
+    border-radius: 5px;
+  }
+
+  .navbar > a:not(:last-child) {
+    border-right: 1px solid rgb(221, 217, 217);
+    padding-right: 0.7em;
+  }
+
+  .navbar > a:hover {
+    color: red;
+  }
+
+  .negativeposition {
+    margin-top: -740px;
+  }
+
+  .negativeposition2 {
+    margin-top: -300px;
+  }
+
+  .long {
+    height: 18vw;
+    width: auto;
+  }
+
+  .long1 {
+    height: 22vw;
+    width: auto;
+  }
+
+  form {
+    max-width: 150px;
+  }
+
+  .media-body button,
+  .media-body input {
+    max-width: 150px;
+  }
+}
